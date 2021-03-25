@@ -1,0 +1,37 @@
+@inproceedings{10.1145/3416504.3424335,
+author = {Ghimis, Bogdan and Paduraru, Miruna and Stefanescu, Alin},
+title = {RIVER 2.0: An Open-Source Testing Framework Using AI Techniques},
+year = {2020},
+isbn = {9781450381239},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3416504.3424335},
+doi = {10.1145/3416504.3424335},
+abstract = {This paper presents the latest updates to the RIVER open-source testing platform for x86 programs, focusing on how artificial intelligence (AI) techniques can be used to improve the automated testing processes. It is also important to mention that RIVER is the first open-source platform that offers a concolic execution engine with reinforcement learning capabilities. On the industry side, this can allow security software engineers to test their applications with fewer costs, while for the research community, it can help prototyping new ideas faster. As a secondary contribution, our work makes a summary of the AI techniques that were used for testing processes either in our previous work or other existing work in the field. The presentation describes technical aspects, challenges, and future work.},
+booktitle = {Proceedings of the 1st ACM SIGSOFT International Workshop on Languages and Tools for Next-Generation Testing},
+pages = {13–18},
+numpages = {6},
+keywords = {Reinforcement learning, concolic, tainting, symbolic, x86, testing, deep learning, neural networks, execution, SMT},
+location = {Virtual, USA},
+series = {LANGETI 2020}
+}
+
+@article{10.1145/3377554,
+author = {Shah, Ankit and Sinha, Arunesh and Ganesan, Rajesh and Jajodia, Sushil and Cam, Hasan},
+title = {Two Can Play That Game: An Adversarial Evaluation of a Cyber-Alert Inspection System},
+year = {2020},
+issue_date = {May 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {11},
+number = {3},
+issn = {2157-6904},
+url = {https://doi.org/10.1145/3377554},
+doi = {10.1145/3377554},
+abstract = {Cyber-security is an important societal concern. Cyber-attacks have increased in numbers as well as in the extent of damage caused in every attack. Large organizations operate a Cyber Security Operation Center (CSOC), which forms the first line of cyber-defense. The inspection of cyber-alerts is a critical part of CSOC operations (defender or blue team). Recent work proposed a reinforcement learning (RL) based approach for the defender’s decision-making to prevent the cyber-alert queue length from growing large and overwhelming the defender. In this article, we perform a red team (adversarial) evaluation of this approach. With the recent attacks on learning-based decision-making systems, it is even more important to test the limits of the defender’s RL approach. Toward that end, we learn several adversarial alert generation policies and the best response against them for various defender’s inspection policy. Surprisingly, we find the defender’s policies to be quite robust to the best response of the attacker. In order to explain this observation, we extend the earlier defender’s RL model to a game model with adversarial RL, and show that there exist defender policies that can be robust against any adversarial policy. We also derive a competitive baseline from the game theory model and compare it to the defender’s RL approach. However, when we go further to exploit the assumptions made in the Markov Decision Process (MDP) in the defender’s RL model, we discover an attacker policy that overwhelms the defender. We use a double oracle like approach to retrain the defender with episodes from this discovered attacker policy. This made the defender robust to the discovered attacker policy and no further harmful attacker policies were discovered. Overall, the adversarial RL and double oracle approach in RL are general techniques that are applicable to other RL usage in adversarial environments.},
+journal = {ACM Trans. Intell. Syst. Technol.},
+articleno = {32},
+numpages = {20},
+keywords = {Cyber-security operations center, game theory, adversarial reinforcement learning}
+}
+
